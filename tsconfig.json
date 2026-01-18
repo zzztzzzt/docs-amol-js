@@ -1,19 +1,14 @@
 {
     "compilerOptions": {
-      "noEmit": true,
-      "target": "ESNext",
-      "lib": ["ESNext", "DOM"],
-      "moduleResolution": "bundler",
-      "strict": true,
-      "noImplicitAny": true,
-      "strictNullChecks": true,
-      "isolatedModules": true,
-      "skipLibCheck": true
+        "target": "ESNext",
+        "lib": ["ESNext", "DOM"],
+        "moduleResolution": "bundler",
+        "strict": true,
+        "skipLibCheck": true,
+        "noEmit": true
     },
     "include": [
-      "**/*.ts", 
-      "**/*.vue", 
-      ".vitepress/**/*.ts",
-      ".vitepress/**/*.vue"
+        ".vitepress/**/*.ts",
+        ".vitepress/**/*.vue"
     ]
 }
