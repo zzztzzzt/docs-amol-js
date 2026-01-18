@@ -86,7 +86,7 @@ jobs:
       run: npm ci
 
     - name: TypeScript type checking (for CodeQL)
-      run: npx tsc --noEmit
+      run: npx tsc -p tsconfig.json --noEmit
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v4
