@@ -1,0 +1,40 @@
+:root {
+    --brand-color-1: #94d8ff;
+    --brand-color-2: #70ffc4;
+  
+    --vp-c-brand-1: var(--brand-color-1);
+    --vp-c-brand-2: var(--brand-color-2);
+
+    --vp-button-brand-bg: var(--brand-color-1);
+    --vp-button-brand-border: var(--brand-color-1);
+    --vp-button-brand-hover-bg: var(--brand-color-2);
+    --vp-button-brand-hover-border: var(--brand-color-2);
+  
+    --vp-home-hero-image-background-image: radial-gradient(
+      circle, 
+      var(--brand-color-2) 0%, 
+      transparent 60%
+    );
+    --vp-home-hero-image-filter: blur(120px);
+}
+
+.VPHero .name {
+    background: linear-gradient(
+      135deg, 
+      var(--brand-color-1) 0%, 
+      var(--brand-color-2) 100%
+    );
+    
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-weight: bold;
+}
+
+.VPFeature .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
