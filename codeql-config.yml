@@ -1,0 +1,6 @@
+name: javascript-typescript
+paths:
+  - ".vitepress/**/*.ts"
+  - ".vitepress/**/*.vue"
+  - "docs/**/*.ts"
+  - "docs/**/*.vue"
