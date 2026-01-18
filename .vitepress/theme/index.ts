@@ -1,8 +1,10 @@
-// .vitepress/theme/index.ts
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
 
+import type { App } from 'vue'
+import type { SiteData } from 'vitepress'
+
 export default {
   extends: DefaultTheme,
-  enhanceApp({ app, router, siteData }) {}
+  enhanceApp({ app, siteData }: { app: App; siteData: SiteData }) {}
 }
