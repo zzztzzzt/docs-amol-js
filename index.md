@@ -25,7 +25,7 @@ features:
     title: Progressive Usage
     details: The Amol-JS UI can be fully embeded into Three.js code, there are no conflicts.
   - icon: <img width="64" height="64" src="/logo/lyra-logo.png" alt="Lyra-AI-icon"/>
-    title: AI-powered UI Generator
+    title: AI-powered Color Harmony
     details: Only one click, you can re-generate any color / gradients in your 3D / UI Components
 ---
 
